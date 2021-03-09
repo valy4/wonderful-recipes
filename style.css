@@ -1,0 +1,43 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.box{
+font-size: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.603) 0px 4px 12px 0px;
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 200px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+
+}
+.nav-item {
+  padding: 2rem;
+  color: blueviolet;
+  font-size: larger;
+}
+.header-link {
+  color:darkblue
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Akaya Telivigala, cursive;
+  font-size: larger;
+}
+.header-link:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+.title {
+  font-family: Akaya Telivigala, cursive;
+  color: red;
+  justify-content: center;
+  display: flex;
+  font-size: xx-large;
+  padding: 1rem;
+}
