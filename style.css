@@ -38,6 +38,27 @@ font-size: 1rem;
   color: red;
   justify-content: center;
   display: flex;
-  font-size: xx-large;
+  font-size: 80px ;
   padding: 1rem;
+}
+
+.container  {
+width: 80%;
+max-width:none;
+margin:0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+
+}
+.col {
+width: 60%;
+
+}
+
+.col + .col {
+  margin-left: 100px;
 }
