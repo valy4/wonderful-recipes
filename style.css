@@ -9,6 +9,7 @@ body{
 }
 img {
   max-width: 100%;
+
 }
 h1{
   font-size: 3rem;
@@ -20,8 +21,9 @@ font-size: 1rem;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.603) 0px 4px 12px 0px;
   margin: 0 auto;
-  max-width: 500px;
+ max-width: 500px;
   max-height: 200px;
+
 }
 
 
@@ -59,7 +61,7 @@ font-size: 1rem;
 .container  {
 width: 80%;
 max-width:none;
-margin:0 auto;
+margin: 0 auto;
 }
 
 .row {
@@ -101,8 +103,24 @@ width: 100%;
 }
 .scris{
   padding: 2rem;
-justify-content: center;
-
+  justify-content: center;
 
 }
+.see-full-recipe{
+  border-radius: 20px;
+  border: solid springgreen 1px;
+  color: aquamarine;
+  background-color: cadetblue;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.see-full-recipe:hover{
+  background-color: chocolate;
+}
+
 
