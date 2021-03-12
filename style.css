@@ -1,5 +1,17 @@
-* {
-  font-family: "Roboto", sans-serif;
+*,*::before , *::after{
+  box-sizing: border-box;
+
+}
+body{
+ font-family: "Roboto", sans-serif;
+ margin: 0;
+ font-size: 1.3rem;
+}
+img {
+  max-width: 100%;
+}
+h1{
+  font-size: 3rem;
 }
 .box{
 font-size: 1rem;
@@ -11,6 +23,8 @@ font-size: 1rem;
   max-width: 500px;
   max-height: 200px;
 }
+
+
 .nav-list {
   list-style-type: none;
   display: flex;
@@ -51,14 +65,44 @@ margin:0 auto;
 .row {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
 
 }
+.first{
+  text-align: center;
+}
+.second{
+position: relative;
+display: flex;
+text-align: center;
+padding: 3rem 0;
+color: white;
+
+}
+.container2{
+  position: absolute;
+}
+
+
 .col {
-width: 60%;
+width: 100%;
 
 }
 
 .col + .col {
   margin-left: 100px;
 }
+.home-photo{
+  width: 100%;
+}
+
+.pic-r2{
+  width: 100%;
+
+}
+.scris{
+  padding: 2rem;
+justify-content: center;
+
+
+}
+
