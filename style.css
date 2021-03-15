@@ -21,7 +21,7 @@ font-size: 1rem;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.603) 0px 4px 12px 0px;
   margin: 0 auto;
- max-width: 500px;
+
   max-height: 200px;
 
 }
@@ -35,12 +35,11 @@ font-size: 1rem;
 }
 .nav-item {
   padding: 2rem;
-  color: blueviolet;
   font-size: larger;
 }
+
 .header-link {
-  color:darkblue
-  font-weight: 500;
+  color:darkblue;
   text-decoration: none;
   font-family: Akaya Telivigala, cursive;
   font-size: larger;
@@ -82,6 +81,8 @@ color: white;
 }
 .container2{
   position: absolute;
+  justify-content: center;
+
 }
 
 
@@ -97,9 +98,9 @@ width: 100%;
   width: 100%;
 }
 
-.pic-r2{
+.pic-bg1{
   width: 100%;
-
+  order: -1;
 }
 .scris{
   padding: 2rem;
@@ -123,4 +124,10 @@ width: 100%;
   background-color: chocolate;
 }
 
-
+.main-text{
+width: 62%;
+}
+.sidebar{
+  width: 32%;
+  text-align: center;
+}
