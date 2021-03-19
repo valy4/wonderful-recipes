@@ -1,21 +1,21 @@
-*,*::before , *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-
 }
-body{
- font-family: "Roboto", sans-serif;
- margin: 0;
- font-size: 1.3rem;
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 1.3rem;
 }
 img {
   max-width: 100%;
-
 }
-h1{
+h1 {
   font-size: 3rem;
 }
-.box{
-font-size: 1rem;
+.box {
+  font-size: 1rem;
   padding: 1rem;
   border-radius: 6px;
   border-width: 1px;
@@ -23,15 +23,12 @@ font-size: 1rem;
   margin: 0 auto;
 
   max-height: 200px;
-
 }
-
 
 .nav-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
-
 }
 .nav-item {
   padding: 2rem;
@@ -39,7 +36,7 @@ font-size: 1rem;
 }
 
 .header-link {
-  color:darkblue;
+  color: darkblue;
   text-decoration: none;
   font-family: Akaya Telivigala, cursive;
   font-size: larger;
@@ -53,61 +50,56 @@ font-size: 1rem;
   color: red;
   justify-content: center;
   display: flex;
-  font-size: 80px ;
+  font-size: 80px;
   padding: 1rem;
 }
 
-.container  {
-width: 80%;
-max-width:none;
-margin: 0 auto;
+.container {
+  width: 80%;
+  max-width: none;
+  margin: 0 auto;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-
 }
-.first{
+.first {
   text-align: center;
 }
-.second{
-position: relative;
-display: flex;
-text-align: center;
-padding: 3rem 0;
-color: white;
-
+.second {
+  position: relative;
+  display: flex;
+  text-align: center;
+  padding: 3rem 0;
+  color: white;
 }
-.container2{
+.container2 {
   position: absolute;
   justify-content: center;
-
 }
 
-
 .col {
-width: 100%;
-
+  width: 100%;
 }
 
 .col + .col {
   margin-left: 100px;
 }
-.home-photo{
+.home-photo {
   width: 100%;
 }
 
-.pic-bg1{
+.pic-bg1 {
   width: 100%;
-  order: -1;
+  height: 87.1px;
 }
-.scris{
+
+.scris {
   padding: 2rem;
   justify-content: center;
-
 }
-.see-full-recipe{
+.see-full-recipe {
   border-radius: 20px;
   border: solid springgreen 1px;
   color: aquamarine;
@@ -117,17 +109,16 @@ width: 100%;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-
 }
 
-.see-full-recipe:hover{
+.see-full-recipe:hover {
   background-color: chocolate;
 }
 
-.main-text{
-width: 62%;
+.main-text {
+  width: 62%;
 }
-.sidebar{
+.sidebar {
   width: 32%;
   text-align: center;
 }
