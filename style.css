@@ -3,29 +3,32 @@
 *::after {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   font-size: 1.3rem;
 }
+
 img {
   max-width: 100%;
   border-radius: 8px;
-  height: auto;
-  object-fit: cover;
 }
+
 h1 {
   font-size: 3rem;
 }
+
 .box {
+  display: flex;
   font-size: 1rem;
   padding: 1rem;
   border-radius: 6px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.603) 0px 4px 12px 0px;
   margin: 0 auto;
-
-  max-height: 200px;
+  height: 100px;
+  justify-content: space-around;
 }
 
 .nav-list {
@@ -33,8 +36,9 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .nav-item {
-  padding: 2rem;
+  padding: 1rem;
   font-size: larger;
 }
 
@@ -44,10 +48,12 @@ h1 {
   font-family: Akaya Telivigala, cursive;
   font-size: larger;
 }
+
 .header-link:hover {
   text-decoration: underline;
   color: aqua;
 }
+
 .title {
   font-family: Akaya Telivigala, cursive;
   color: red;
@@ -67,9 +73,11 @@ h1 {
   display: flex;
   flex-direction: row;
 }
+
 .first {
   text-align: center;
 }
+
 .second {
   position: relative;
   display: flex;
@@ -77,6 +85,7 @@ h1 {
   padding: 3rem 0;
   color: white;
 }
+
 .container2 {
   position: absolute;
   justify-content: center;
@@ -89,14 +98,16 @@ h1 {
 .col + .col {
   margin-left: 100px;
 }
+
 .home-photo {
+  height: 620px;
   width: 100%;
 }
 
 .scris {
   padding: 2rem;
-  justify-content: center;
 }
+
 .see-full-recipe {
   border-radius: 20px;
   border: solid springgreen 1px;
@@ -116,7 +127,24 @@ h1 {
 .main-text {
   width: 62%;
 }
+
 .sidebar {
   max-width: 32%;
   text-align: center;
+  margin-top: 50px;
+}
+
+.recipes {
+  height: 150px;
+  width: 250px;
+}
+
+.vegan-veggie {
+  height: 620px;
+  width: 100%;
+}
+
+.main-title {
+  text-align: center;
+  color: brown;
 }
