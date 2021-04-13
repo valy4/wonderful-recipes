@@ -8,30 +8,30 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   font-size: 1.3rem;
-  background-color: bisque;
 }
 
 img {
-  max-width: 100%;
+  width:  100%;
   border-radius: 8px;
 }
 p {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: blue;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: blue;
   padding-left: 50px;
 }
 
 .box {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 0 auto;
-  width: 80%;
+  max-width: 90%;
+  display: flex;
 }
 .title {
   font-family: Akaya Telivigala, cursive;
@@ -41,7 +41,28 @@ h2 {
   font-size: 80px;
   padding: 1rem;
 }
+
+.box-child {
+  background-color: pink;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+.box-child2 {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+
 li {
-  font-size: 1.5rem;
-  padding-left: 32px;
+  line-height: 1.5;
+}
+.lista {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+.recipes {
+  width: 100%;
 }

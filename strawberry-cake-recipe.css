@@ -7,8 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  font-size: 1.3rem;
-  background-color: bisque;
+  font-size: 1.3 rem;
 }
 
 img {
@@ -17,18 +16,37 @@ img {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: blue;
   padding-left: 50px;
 }
 
 .box {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 0 auto;
-  width: 80%;
+  max-width: 90%;
+  display: flex;
+}
+
+.box-child {
+  background-color: pink;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+.lista {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-child2 {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 .title {
   font-family: Akaya Telivigala, cursive;
@@ -39,7 +57,7 @@ h2 {
   padding: 1rem;
 }
 li {
-  font-size: 1.5rem;
+  font-size: 1 rem;
   padding-left: 32px;
 }
 ol {

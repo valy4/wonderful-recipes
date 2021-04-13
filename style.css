@@ -240,7 +240,7 @@ h2 {
   width: 100%;
   border: solid springgreen 2px;
   height: 50px;
-  margin-bottom: 16px;
+  margin-top: 25px;
   font-size: larger;
   cursor: pointer;
 }
@@ -264,4 +264,10 @@ footer {
   color: blue;
   font-size: 30px;
   font-weight: bold;
+}
+#recipes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
