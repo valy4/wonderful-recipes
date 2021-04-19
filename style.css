@@ -276,3 +276,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
+#btn-vegan {
+  border-radius: 20px;
+  background-color: white;
+  border-color: #f52878;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#btn-vegan:hover {
+  background-color: #f52878;
+}
