@@ -16,6 +16,7 @@ searchbox.addEventListener(`keypress`, function (event) {
         // do something with the results
         const recipeList = data.results;
         container.innerHTML = "";
+        console.log(recipeList, "recipeList")
         for (let i = 0; i < recipeList.length; i++) {
           // paint the recipe
           let recipe = recipeList[i];
@@ -28,10 +29,20 @@ searchbox.addEventListener(`keypress`, function (event) {
           img.setAttribute("src", recipe.image);
           container.appendChild(img);
 
+          // create an a
+          const recipesLink = document.createElement("a")
+          recipesLink.setAttribute("href", `/recipe-page.html?recipe_id=${recipe.id}`)
+
+
+          // creates button
           const btn = document.createElement("button")
           btn.innerHTML = "See Full Recipe";
           btn.classList.add("see-full-recipe")
-          container.appendChild(btn);
+
+          recipesLink.appendChild(btn);
+
+
+          container.appendChild(recipesLink);
 
         }
       });

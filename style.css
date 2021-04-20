@@ -279,8 +279,8 @@ footer {
 #btn-vegan {
   border-radius: 20px;
   background-color: white;
-  border-color: #f52878;
-  color: black;
+  border: solid #f52878 1px;
+  color: #f52878;
   cursor: pointer;
   padding: 5px;
   padding-left: 10px;
@@ -288,4 +288,5 @@ footer {
 }
 #btn-vegan:hover {
   background-color: #f52878;
+  color: white;
 }

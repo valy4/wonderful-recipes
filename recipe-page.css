@@ -18,6 +18,7 @@ img {
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   font-size: 2rem;
   color: #f52878;
@@ -54,7 +55,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 80px;
-  color: aliceblue;
+  color: #f52878;
 }
 li {
   font-size: 1 rem;
@@ -74,13 +75,21 @@ ul {
 }
 .container-title {
   height: 100vh;
-  background-image: url("images/strawberry.jpg");
+  /* background-image: url("images/img83252.768x512.jpg"); */
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bolder;
 }
+
+.container-overlay {
+  background-color: rgb(251, 251, 251, 0.4);
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .pink-side {
   background-color: #f52878;
   height: 80vh;
