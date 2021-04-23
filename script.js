@@ -7,7 +7,7 @@ searchbox.addEventListener(`keypress`, function (event) {
     const search = document.getElementById("search-bar").value;
 
     fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?query=${search}&addRecipeInformation=true&apiKey=cc7961a8e292403b983f2c208132a9f4`
+      `https://api.spoonacular.com/recipes/complexSearch?query=${search}&addRecipeInformation=true&&apiKey=cc7961a8e292403b983f2c208132a9f4`
     )
       .then((response) => response.json())
 
@@ -23,7 +23,7 @@ searchbox.addEventListener(`keypress`, function (event) {
           const recipeTitle = document.createElement("p");
           recipeTitle.innerText = recipe.title;
           container.appendChild(recipeTitle);
-          console.log(recipe);
+          // console.log(recipe);
 
           const img = document.createElement("img");
           img.setAttribute("src", recipe.image);
